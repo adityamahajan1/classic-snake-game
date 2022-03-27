@@ -26,6 +26,7 @@ screen.onkeypress(snake.right,"Right")
 
 game_is_on = True
 score = 0
+
 while game_is_on:
     snake.move()
 
